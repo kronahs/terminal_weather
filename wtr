@@ -15,7 +15,7 @@ API_ENDPOINT="https://api.openweathermap.org/data/2.5/weather?q=$1&appid=${API_K
   fi
 
   # Set the API endpoint
-  API_KEY="5a72ad06020a0a190fef381649d5f794"
+  API_KEY="YOUR API_KEY"
   API_ENDPOINT="https://api.openweathermap.org/data/2.5/weather?q=$1&appid=${API_KEY}&units=metric"
 
   # Make the API request using cURL and parse the output using jq
